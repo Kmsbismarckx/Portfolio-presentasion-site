@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-    <title>Портфолио Junior верстальщика</title>
+    <title>Junior Frontend</title>
   </head>
 
   <body>
@@ -23,22 +23,145 @@
 
     <section class="intro">
       <div class='container'>
-        <h2 class="subheading">Let's meet</h2>
-        <h3>Some information about me</h3>
-        <p>I'm 22 years old, love computers and games, also like web-culture!</p>
-        <h3>My advantages</h3>
-        <p>I am very motivated to become a programmer. I want developing new
-        content and learning new skills!.</p>
+        <h2 class="subheading">Давайте знакомиться</h2>
+        <h3>Немного обо мне</h3>
+        <p class="item-shadow">Мне 22 года, люблю активный образ жизни и компьютеры</p>
+        <h3>Мои навыки</h3>
+
+        <dl class="advantages advantages-1">
+          <dt>Что я знаю</dt>
+          <dd class="item-shadow">
+
+            <div class="advantages__description">
+              <img src="img/icon-html.svg" alt="HTML5" height="125" width="125">
+              <p>HTML5</p>
+            </div>
+
+            <div class="advantages__description">
+              <img src="img/icon-css.svg" alt="CSS3" height="125" width="125">
+              <p>CSS3</p>
+            </div>
+
+            <div class="advantages__description">
+              <img src="img/icon-js.svg" alt="JS" height="125" width="125">
+              <p>JavaScript</p>
+            </div>
+
+            <div class="advantages__description">
+              <img src="img/icon-sass.svg" alt="Sass/Scss" height="125" width="125">
+              <p>SASS/SCSS</p>
+            </div>
+
+            <div class="advantages__description">
+              <img src="img/icon-api.svg" alt="API" height="125" width="125">
+              <p>API</p>
+            </div>
+
+            <div class="advantages__description">
+              <img src="img/icon-JSON.svg" alt="JSON" height="125" width="125">
+              <p>JSON</p>
+            </div>
+
+            <div class="advantages__description">
+              <img src="img/icon-dom.svg" alt="DOM" height="125" width="125">
+              <p>DOM</p>
+            </div>
+
+            <div class="advantages__description">
+              <img src="img/icon-git.svg" alt="Git" height="125" width="125">
+              <p>GIT</p>
+            </div>
+
+          </dd>
+        </dl>
+
+        <dl class="advantages advantages-2">
+          <dt>Что я знаю неплохо</dt>
+
+          <dd class="item-shadow">
+
+            <div class="advantages__description">
+              <img src="img/icon-bem.svg" alt="BEM" height="125" width="125">
+              <p>BEM</p>
+            </div>
+
+            <div class="advantages__description">
+              <img src="img/icon-npm.svg" alt="npm" height="125" width="125">
+              <p>npm</p>
+            </div>
+
+            <div class="advantages__description">
+              <img src="img/icon-figma.svg" alt="Figma" height="125" width="125">
+              <p>Figma</p>
+            </div>
+
+            <div class="advantages__description">
+              <img src="img/icon-ps.svg" alt="PS" height="125" width="125">
+              <p>PS</p>
+            </div>
+
+            <div class="advantages__description">
+              <img src="img/icon-webpack.svg" alt="Webpack" height="125" width="125">
+              <p>Webpack</p>
+            </div>
+
+          </dd>
+
+        </dl>
+
+        <dl class="advantages advantages-3">
+
+          <dt>Что я изучаю</dt>
+
+          <dd class="item-shadow">
+
+            <div class="advantages__description">
+              <img src="img/icon-react.svg" alt="React" height="125" width="125">
+              <p>React</p>
+            </div>
+
+          </dd>
+
+        </dl>
+
       </div>
     </section>
 
     <section class="portfolio">
       <div class='container'>
-        <h2 class="subheading">My projects</h2>
-        <h3>...</h3>
-        <p>...</p>
-        <h3>...</h3>
-        <p>...</p>
+        <h2 class="subheading">Мои проекты</h2>
+
+        <div class="portfolio__item">
+          <h3>Meta</h3>
+
+          <div class="item-shadow portfolio__item_description">
+            <div class="portfolio__item_logo">
+              <a href="https://kmsbismarckx.github.io/pet-project-meta/" title="Проект Meta">
+                <img src="img/icon-meta.png" alt="Meta" height="200" width="250">
+              </a>
+            </div>
+            <p class="portfolio__item_text">В данном проекте представлена адаптивная верстка с
+              использование технологий Grid и Flex
+            </p>
+          </div>
+
+        </div>
+
+        <div class="portfolio__item">
+          <h3>Yota</h3>
+
+          <div class="item-shadow portfolio__item_description">
+            <div class="portfolio__item_logo">
+              <a href="https://kmsbismarckx.github.io/Yota-TODO/" title="Проект Yota">
+                <img src="img/icon-yota.svg" alt="Yota" height="200" width="250">
+              </a>
+            </div>
+            <p class="portfolio__item_text">Этот проект основан на использовании localStorage И sessionStorage.
+               Сам по себе это простой To-Do, написанный на чистом HTML, CSS и JS.
+            </p>
+          </div>
+
+        </div>
       </div>
     </section>
 

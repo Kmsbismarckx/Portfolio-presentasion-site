@@ -130,3 +130,7 @@ aside::before {
 nav::before {
   content: "nav";
 }
+
+.portfolio__item_description {
+  display: flex;
+}

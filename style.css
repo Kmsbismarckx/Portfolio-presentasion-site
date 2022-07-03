@@ -11,6 +11,12 @@ body {
   background-position: top center;
 }
 
+.item-shadow {
+  box-shadow: 0px 0px 5px 1px #ccc;
+  background-color: #fff;
+  padding: 10px;
+}
+
 .container {
   max-width: 928px;
   margin: 0 auto;
@@ -95,78 +101,68 @@ body {
   font-weight: 500;
 }
 
-.intro p {
-  margin: 0 0 32px;
+.advantages dt {
+  font-size: 125%;
 }
 
-.skills-list {
+.advantages dd {
   margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.skills-list dt {
-  padding-left: 32px;
-  background-repeat: no-repeat;
-  background-position: left;
+.advantages__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
 
-.skill-html {
-  background-image: url("img/icon-html.svg");
+.advantages-1 .advantages__description:nth-last-child(1),
+.advantages-1 .advantages__description:nth-last-child(2)  {
+  flex-grow: 2;
 }
 
-.skill-css {
-  background-image: url("img/icon-css.svg");
+.advantages-3 dd {
+  justify-content: center;
 }
 
-.level {
-  margin: 4px 0 16px;
-  padding: 0;
-  height: 14px;
-  font-size: 0;
-  background-color: #ffffff;
-  border: 1px solid #86c3fa;
-  border-radius: 8px;
-}
-
-.level div {
-  margin: 1px;
-  height: 12px;
-  background-color: #288be6;
-  border-radius: 6px;
+.advantages__description p {
+  margin: 0;
 }
 
 .portfolio {
   margin: 0 0 120px;
 }
 
-.projects {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.portfolio__item_logo {
+  display: flex;
+  justify-content: center;
 }
 
-.projects li {
-  margin: 0 0 80px;
+.portfolio__item_description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  background-color: #fff;
+  transition: all 0.15s ease;
 }
 
-.project-image {
-  margin: 0 0 24px;
-  text-align: center;
+.portfolio__item_description:hover {
+  transform: scale(1.05);
 }
 
-.projects p {
-  margin: 0 0 24px;
+.portfolio__item_text {
+  padding: 25px;
 }
 
-.button {
-  padding: 6px 20px;
-  display: inline-block;
-  vertical-align: baseline;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 4px;
-  background-color: #288be6;
-  color: #ffffff;
+.portfolio a {
+  display: flex;
+  align-items: center;
+  font-size: 0;
 }
 
 .page-footer {
