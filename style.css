@@ -12,9 +12,10 @@ body {
 }
 
 .item-shadow {
-  box-shadow: 0px 0px 5px 1px #ccc;
+  box-shadow: 0 0 5px 1px #ccc;
   background-color: #fff;
   padding: 10px;
+  text-align: center;
 }
 
 .container {
@@ -139,12 +140,12 @@ body {
 
 .portfolio__item_logo {
   display: flex;
+  width: 250px;
   justify-content: center;
 }
 
 .portfolio__item_description {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
   background-color: #fff;
