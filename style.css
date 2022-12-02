@@ -15,11 +15,10 @@ body {
   box-shadow: 0 0 5px 1px #ccc;
   background-color: #fff;
   padding: 10px;
-  text-align: center;
 }
 
 .container {
-  max-width: 928px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 0 16px;
 }
